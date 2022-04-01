@@ -5,7 +5,7 @@
 # PieMarquee2 Supreme Edit
 Enhanced Marquee plugin for RetroPie, With edits made from the spreme team.
 
-Whats new?
+**Whats new?**
 1)New supreme team marquee script to control marquee location as well as a easy on and off option, With outo gamelist entry built.
 2)Boot up video will be the same as your splash screen.
 3)Outo HDMI marquee detection .
@@ -49,11 +49,13 @@ chmod 755 ./install-pi4es.sh
 
   * (NEW LOACTION) Main Marquee image's for each game will show from the folder you pick using the supreme marquee script.
 ex:
+```
 /home/pi/RetroPie/roms/[system name]/themed-marquee 
 /home/pi/RetroPie/roms/[system name]/marquee
 /home/pi/RetroPie/roms/[system name]/mixar
 /home/pi/RetroPie/roms/[system name]/boxart
-/home/pi/RetroPie/roms/[system name]/wheel 
+/home/pi/RetroPie/roms/[system name]/wheel
+``` 
          
   * If there is no game marquee file then PieMarquee2 will show system marquee.  
     Place for system marquee "**systemname.png**" is "`/home/pi/PieMarquee2/marquee/system/`" folder  
@@ -65,4 +67,4 @@ ex:
   * publisher image for publisher "**publishername.png**" goes to "`/home/pi/PieMarquee2/marquee/publisher`" folder (*optional, defined in gamelist_short.xml* )  
     **NOTE :** Setting instruction or publisher images makes PieMarquee2 to show marquee of game, instruction and publisher sequentially.)
 
-Big thanks to orgianl creator rinalim and edits made from losernator. Also thanks to the Supreme team and Viet for the new marquee edits.
+**Big thanks to orgianl creator rinalim and edits made from losernator. Also thanks to the Supreme team and Viet for the new marquee edits.**

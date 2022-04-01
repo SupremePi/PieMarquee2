@@ -62,6 +62,27 @@ function main_menu() {
 function system-themed-marquee() {
 	dialog --infobox "APPLYING CHANGES NOW." 3 25 ; sleep 6
 	if [ ! -d /home/pi/Piethemed-marquee3 ]; then
+
+# Make backup of original files
+if [ -d /home/pi/PieMarquee2/marquee/custom ]; then
+mv /home/pi/PieMarquee2/marquee/custom /home/pi/PieMarquee2/marquee/custom.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/instruction  ]; then
+mv /home/pi/PieMarquee2/marquee/instruction /home/pi/PieMarquee2/marquee/instruction.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/publisher ]; then
+mv /home/pi/PieMarquee2/marquee/publisher /home/pi/PieMarquee2/marquee/publisher.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/snes ]; then
+mv /home/pi/PieMarquee2/marquee/snes /home/pi/PieMarquee2/marquee/snes.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/system ]; then
+mv /home/pi/PieMarquee2/marquee/system /home/pi/PieMarquee2/marquee/system.bk
+fi
 	
 if [ ! -d /home/pi/RetroPie/roms/3do/themed-marquee ]; then
   mkdir /home/pi/RetroPie/roms/3do >/dev/null 2>&1
@@ -1666,6 +1687,27 @@ fi
 function system-marquee() {
 	dialog --infobox "APPLYING CHANGES NOW." 3 25 ; sleep 6
 	if [ ! -d /home/pi/PieMarquee3 ]; then
+
+# Make backup of original files
+if [ -d /home/pi/PieMarquee2/marquee/custom ]; then
+mv /home/pi/PieMarquee2/marquee/custom /home/pi/PieMarquee2/marquee/custom.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/instruction  ]; then
+mv /home/pi/PieMarquee2/marquee/instruction /home/pi/PieMarquee2/marquee/instruction.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/publisher ]; then
+mv /home/pi/PieMarquee2/marquee/publisher /home/pi/PieMarquee2/marquee/publisher.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/snes ]; then
+mv /home/pi/PieMarquee2/marquee/snes /home/pi/PieMarquee2/marquee/snes.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/system ]; then
+mv /home/pi/PieMarquee2/marquee/system /home/pi/PieMarquee2/marquee/system.bk
+fi
 	
 if [ ! -d /home/pi/RetroPie/roms/3do/marquee ]; then
   mkdir /home/pi/RetroPie/roms/3do >/dev/null 2>&1
@@ -3270,6 +3312,27 @@ fi
 function system-mixar() {
 	dialog --infobox "APPLYING CHANGES NOW" 3 25 ; sleep 6
 	if [ ! -d /home/pi/PieMarquee3 ]; then
+
+# Make backup of original files
+if [ -d /home/pi/PieMarquee2/marquee/custom ]; then
+mv /home/pi/PieMarquee2/marquee/custom /home/pi/PieMarquee2/marquee/custom.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/instruction  ]; then
+mv /home/pi/PieMarquee2/marquee/instruction /home/pi/PieMarquee2/marquee/instruction.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/publisher ]; then
+mv /home/pi/PieMarquee2/marquee/publisher /home/pi/PieMarquee2/marquee/publisher.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/snes ]; then
+mv /home/pi/PieMarquee2/marquee/snes /home/pi/PieMarquee2/marquee/snes.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/system ]; then
+mv /home/pi/PieMarquee2/marquee/system /home/pi/PieMarquee2/marquee/system.bk
+fi
 	
 if [ ! -d /home/pi/RetroPie/roms/3do/mixart ]; then
   mkdir /home/pi/RetroPie/roms/3do >/dev/null 2>&1
@@ -4874,6 +4937,27 @@ fi
 function system-boxart() {
 	dialog --infobox "APPLYING CHANGES NOW" 3 25 ; sleep 6
 	if [ ! -d /home/pi/PieMarquee3 ]; then
+
+# Make backup of original files
+if [ -d /home/pi/PieMarquee2/marquee/custom ]; then
+mv /home/pi/PieMarquee2/marquee/custom /home/pi/PieMarquee2/marquee/custom.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/instruction  ]; then
+mv /home/pi/PieMarquee2/marquee/instruction /home/pi/PieMarquee2/marquee/instruction.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/publisher ]; then
+mv /home/pi/PieMarquee2/marquee/publisher /home/pi/PieMarquee2/marquee/publisher.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/snes ]; then
+mv /home/pi/PieMarquee2/marquee/snes /home/pi/PieMarquee2/marquee/snes.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/system ]; then
+mv /home/pi/PieMarquee2/marquee/system /home/pi/PieMarquee2/marquee/system.bk
+fi
 	
 if [ ! -d /home/pi/RetroPie/roms/3do/boxart ]; then
   mkdir /home/pi/RetroPie/roms/3do >/dev/null 2>&1
@@ -6478,6 +6562,27 @@ fi
 function system-wheel() {
 	dialog --infobox "APPLYING CHANGES NOW" 3 25 ; sleep 6
 	if [ ! -d /home/pi/PieMarquee3 ]; then
+
+# Make backup of original files
+if [ -d /home/pi/PieMarquee2/marquee/custom ]; then
+mv /home/pi/PieMarquee2/marquee/custom /home/pi/PieMarquee2/marquee/custom.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/instruction  ]; then
+mv /home/pi/PieMarquee2/marquee/instruction /home/pi/PieMarquee2/marquee/instruction.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/publisher ]; then
+mv /home/pi/PieMarquee2/marquee/publisher /home/pi/PieMarquee2/marquee/publisher.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/snes ]; then
+mv /home/pi/PieMarquee2/marquee/snes /home/pi/PieMarquee2/marquee/snes.bk
+fi
+
+if [ -d /home/pi/PieMarquee2/marquee/system ]; then
+mv /home/pi/PieMarquee2/marquee/system /home/pi/PieMarquee2/marquee/system.bk
+fi
 	
 if [ ! -d /home/pi/RetroPie/roms/3do/wheel ]; then
   mkdir /home/pi/RetroPie/roms/3do >/dev/null 2>&1
